@@ -1,6 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
 
 * {
     padding: 0;
@@ -47,3 +52,16 @@ ul li:hover ul.dropdown {
 ul.dropdown  li a:hover {
     background: #006D6F;
 }
+
+
+.Background-Photo{
+    padding: 250px 0 150px;
+    background-image: url("./__ASSET__342cefcc-1053-45b6-a6d3-2fd39ebbdf60.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: 0 0;
+   position: relative;
+   height: 100%;
+}
+
+  
